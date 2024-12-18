@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Faculty Click event
     document.getElementById("Faculty")?.addEventListener("click", function () {
-        window.location.href = 'f_login.html';
+        window.location.href = '../faculty/f_login.html';
     });
     
     // Student Click event
