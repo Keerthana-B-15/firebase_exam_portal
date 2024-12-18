@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (facultySignupButton) {
         facultySignupButton.addEventListener("click", function (event) {
             event.preventDefault(); // Prevent form submission
-            window.location.replace('F_dashboard.html');
+            window.location.replace('../faculty/f_dashboard.html');
         });
     }
 
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (facultyLoginButton) {
         facultyLoginButton.addEventListener("click", function (event) {
             event.preventDefault(); // Prevent form submission
-            window.location.replace('F_dashboard.html');
+            window.location.replace('../faculty/f_dashboard.html');
         });
     }
 });
